@@ -1,4 +1,16 @@
 html,
-body {
+body,
+#__nuxt {
   height: 100%;
+}
+
+$primary-color: #0f0f0f;
+$secondary-color: #1e1b1e;
+
+.app-bg {
+  background-color: $primary-color;
+}
+
+.bg-secondary {
+  background-color: $secondary-color;
 }
